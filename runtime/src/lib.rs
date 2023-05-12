@@ -483,7 +483,7 @@ construct_runtime!(
 		DmpQueue: cumulus_pallet_dmp_queue = 33,
 
 		// Template
-		daizenPallet: pallet_daizen = 40,
+		DaizenPallet: pallet_daizen = 40,
 	}
 );
 

@@ -8,6 +8,6 @@
 --ws-port 8844 \
 -- \
 --execution wasm \
---chain /tmp/chainspec.json \
+--chain ~/daizen.io/chainspec.json \
 --port 30343 \
 --ws-port 9977

@@ -8,7 +8,7 @@
   "properties": {
     "ss58Format": 42,
     "tokenDecimals": 12,
-    "tokenSymbol": "UNIT"
+    "tokenSymbol": "DAIZEN"
   },
   "relay_chain": "rococo-local",
   "para_id": 2000,
@@ -20,7 +20,7 @@
       },
       "parachainSystem": null,
       "parachainInfo": {
-        "parachainId": 1000
+        "parachainId": 2000
       },
       "balances": {
         "balances": [
