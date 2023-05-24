@@ -6379,7 +6379,7 @@ dependencies = [
  "jsonrpsee",
  "log",
  "pallet-transaction-payment-rpc",
- "parachain-template-runtime",
+ "parachain-daizen-runtime",
  "parity-scale-codec",
  "polkadot-cli",
  "polkadot-primitives",
@@ -6416,19 +6416,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "parachain-info"
-version = "0.1.0"
-source = "git+https://github.com/paritytech/cumulus.git?branch=polkadot-v0.9.40#e05c8d7f71734ed71188337c6cb0d30715f6320f"
-dependencies = [
- "cumulus-primitives-core",
- "frame-support",
- "frame-system",
- "parity-scale-codec",
- "scale-info",
-]
-
-[[package]]
-name = "parachain-template-runtime"
+name = "parachain-daizen-runtime"
 version = "0.1.0"
 dependencies = [
  "cumulus-pallet-aura-ext",
@@ -6481,6 +6469,18 @@ dependencies = [
  "xcm",
  "xcm-builder",
  "xcm-executor",
+]
+
+[[package]]
+name = "parachain-info"
+version = "0.1.0"
+source = "git+https://github.com/paritytech/cumulus.git?branch=polkadot-v0.9.40#e05c8d7f71734ed71188337c6cb0d30715f6320f"
+dependencies = [
+ "cumulus-primitives-core",
+ "frame-support",
+ "frame-system",
+ "parity-scale-codec",
+ "scale-info",
 ]
 
 [[package]]
