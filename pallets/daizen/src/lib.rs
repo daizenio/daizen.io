@@ -26,6 +26,18 @@ pub mod pallet {
 		type RuntimeEvent: From<Event<Self>> + IsType<<Self as frame_system::Config>::RuntimeEvent>;
 	}
 
+	// DD Format Decimal Degrees
+	pub struct Position {
+		latitude: u32,
+		longitude: u32,
+	}
+
+	pub struct RideRequest<T: Config> {
+		id: u64,
+		from: Position,
+		to: Position,
+	}
+
 	#[pallet::pallet]
 	pub struct Pallet<T>(_);
 
