@@ -26,7 +26,7 @@ ln -fs ~/daizen.io/bob.$TIMESTAMP.out ~/daizen.io/bob.last.out
 
 
 
-~/daizen.io/daizen.io/target/release/parachain-template-node \
+~/daizen.io/daizen.io/target/release/parachain-daizen \
 --alice \
 --collator \
 --force-authoring \

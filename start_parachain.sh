@@ -1,4 +1,4 @@
-./target/release/parachain-template-node \
+./target/release/parachain-daizen \
 --alice \
 --collator \
 --force-authoring \
