@@ -34,6 +34,7 @@ pub mod pallet {
 
 	pub struct RideRequest<T: Config> {
 		id: u64,
+		client: T::AccountId,
 		from: Position,
 		to: Position,
 	}
