@@ -57,7 +57,7 @@ pub mod pallet {
 	pub enum Event<T: Config> {
 		/// Event documentation should end with an array that provides descriptive names for event
 		/// parameters. [ride, who]
-		rideStored(u32, T::AccountId),
+		RideStored(u32, T::AccountId),
 	}
 
 	// Errors inform users that ride went wrong.
@@ -91,7 +91,7 @@ pub mod pallet {
 			<Ride<T>>::put(ride);
 
 			// Emit an event.
-			Self::deposit_event(Event::rideStored(ride, who));
+			Self::deposit_event(Event::RideStored(ride, who));
 			// Return a successful DispatchResultWithPostInfo
 			Ok(().into())
 		}
